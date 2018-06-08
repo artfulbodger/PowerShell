@@ -1,5 +1,10 @@
 ﻿$Global:ProgressPreference = 'SilentlyContinue'
 
+Clear-Host
+Set-Location -Path $env:SystemDrive\Development
+$error.Clear()
+Import-Module -Name posh-git -ErrorAction SilentlyContinue
+Start-SshAgent
 if (Test-NetConnection -ComputerName bing.com -Port 80 -InformationLevel Quiet -ErrorAction SilentlyContinue -WarningAction SilentlyContinue) {
 
     $Now = Get-Date
