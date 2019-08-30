@@ -35,7 +35,7 @@ $Global:ProgressPreference = 'Continue'
 
 Start-Steroids
 
-Set-Location -Path $env:SystemDrive\Development
+Set-Location -Path "$env:SystemDrive\Users\Richard.Carpenter\OneDrive - Global\Development"
 Clear-Host
 $Error.Clear()
 Import-Module -Name posh-git -ErrorAction SilentlyContinue
