@@ -1,6 +1,6 @@
 $Global:ProgressPreference = 'Continue'
 
-Set-Location -Path "$env:SystemDrive\Users\Richard.Carpenter\OneDrive - Global\Development"
+Set-Location -Path "$env:SystemDrive\Development"
 Clear-Host
 $Error.Clear()
 Import-Module -Name posh-git -ErrorAction SilentlyContinue
