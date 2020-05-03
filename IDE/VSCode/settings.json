@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "PowerShell ISE",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.startAutomatically": true,
+    "powershell.integratedConsole.focusConsoleOnExecute": true,
+    "powershell.codeFormatting.openBraceOnSameLine": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "powershell.sideBar.CommandExplorerExcludeFilter": []
+}
